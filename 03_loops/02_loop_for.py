@@ -42,3 +42,10 @@ for index, animal in enumerate(animals):
         print(f"Skipping hamster at index {index}.")
         continue  # Skip the rest of the loop for hamster
     print(f"Animal: {animal}")
+
+# list comprehension
+
+animals = ["cat", "dog", "rabbit", "hamster", "parrot"]
+
+animals_upper = [animal.upper() for animal in animals]  # Convert each animal name to uppercase
+print("Animals in uppercase:", animals_upper)
